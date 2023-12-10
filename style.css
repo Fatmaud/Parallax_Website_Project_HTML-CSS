@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+  height: 100vh;
+}
+
+.bckimg1-container {
+  background-image: url(./img/bg.jpg);
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.bigheading {
+  font-size: 3rem;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  outline: 8px inset purple;
+  outline-offset: 1rem;
+  letter-spacing: 10px;
+  line-height: 5rem;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 70px;
+  line-height: 2rem;
+}
+
+.section-light {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+
+.bckimg2-container {
+  background-image: url(./img/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.bckimg2-container img {
+  width: 20%;
+  height: 5%;
+  min-width: 400px;
+  min-height: 80px;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  color: #666;
+  /* line-height: 1.8rem; */
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: white;
+}
+
+.section-dark h2 {
+  color: white;
+}
+
+.bckimg3-container {
+  background-image: url(./img/bg3.jpg);
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.bckimg4-container {
+  background-image: url(./img/bg4.jpg);
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+  padding: 0.5rem;
+  width: max-content;
+  margin: auto;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-style: normal;
+  letter-spacing: 3px;
+}
